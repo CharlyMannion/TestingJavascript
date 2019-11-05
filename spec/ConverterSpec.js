@@ -14,8 +14,15 @@ describe("Cooking Ingredients Converter", function() {
 
   describe("Weights", function() {
     it("Pounds to Kilos", function(){
-      var result = convertPoundsToKilos(10);
+      var result = convertPoundsToKilos(100);
       expect(result).toEqual(45.36);
     })
   });
+
+  describe("Volume", function() {
+    it("Litre to Gallons", function() {
+      var result = convertLitreToGallons(10);
+      expect(result).toEqual('22');
+    })
+  })
 });
