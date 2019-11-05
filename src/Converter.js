@@ -16,3 +16,7 @@ function convertPoundsToKilos(pound) {
   return kilo;
 }
 
+function convertLitreToGallons(litres) {
+  gallons = litres * 0.22
+  return gallons;
+}

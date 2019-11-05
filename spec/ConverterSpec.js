@@ -22,7 +22,7 @@ describe("Cooking Ingredients Converter", function() {
   describe("Volume", function() {
     it("Litre to Gallons", function() {
       var result = convertLitreToGallons(10);
-      expect(result).toEqual('22');
+      expect(result).toEqual(2.2);
     })
   })
 });
