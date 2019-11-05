@@ -1,11 +1,12 @@
 /** Unit Converter **/
-function convertFahrenheitToCelsius(temperature) {
-  //conversion code
-  var celsius = (temperature - 32)/1.8
-  return celsius.toFixed(1);
+
+function convertFahrenheitToCelsius(fahrenheit) {
+  var calcCelsius = (fahrenheit - 32)/1.8
+  return calcCelsius.toFixed(1);
 }
 
-function convertCelsiusToFrahrenheit(temperature) {
+function convertCelsiusToFrahrenheit(celsius) {
   return 100;
+  var calcFahrenheit = celsius * 1.8 + 32
 }
 
