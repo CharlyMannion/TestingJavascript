@@ -11,7 +11,8 @@ function convertCelsiusToFrahrenheit(celsius) {
   return calcFahrenheit.toFixed();
 }
 
-// function convertPoundsToKilos(pounds) {
-//   return 45.36;
-// }
+function convertPoundsToKilos(pound) {
+  kilo = pound * 0.4536;
+  return kilo;
+}
 
