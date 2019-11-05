@@ -6,7 +6,6 @@ function convertFahrenheitToCelsius(fahrenheit) {
 }
 
 function convertCelsiusToFrahrenheit(celsius) {
-  // return 100;
   var calcFahrenheit = celsius * 1.8 + 32;
   return calcFahrenheit.toFixed();
 }
