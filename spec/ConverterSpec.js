@@ -9,14 +9,14 @@ describe("Cooking Ingredients Converter", function() {
     it("Celsius to Fahrenheit", function() {
       var result = convertCelsiusToFrahrenheit(37.8);
       expect(result).toEqual('100');
-    })
+    });
   });
 
   describe("Weights", function() {
     it("Pounds to Kilos", function(){
       var result = convertPoundsToKilos(100);
       expect(result).toEqual(45.36);
-    })
+    });
   });
 
   describe("Volume", function() {
@@ -24,5 +24,12 @@ describe("Cooking Ingredients Converter", function() {
       var result = convertLitreToGallons(10);
       expect(result).toEqual(2.2);
     })
-  })
+  });
+
+  describe("Distance", function(){
+    it("Miles to KM", function(){
+      var result = convertMilesToKM(10);
+      expect(result).toEqual(16.09);
+    });
+  });
 });

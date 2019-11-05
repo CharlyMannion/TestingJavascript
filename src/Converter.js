@@ -17,6 +17,11 @@ function convertPoundsToKilos(pound) {
 }
 
 function convertLitreToGallons(litres) {
-  gallons = litres * 0.22
+  gallons = litres * 0.22;
   return gallons;
+}
+
+function convertMilesToKM(miles) {
+  kiloms = miles * 1.609;
+  return kiloms;
 }
