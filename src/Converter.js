@@ -1,5 +1,6 @@
 /** Unit Converter **/
 function convertFahrenheitToCelsius(temperature) {
   //conversion code
-  return '37.8'
+var celsius = (temperature - 32)/1.8
+return celsius.toFixed(1);
 }
