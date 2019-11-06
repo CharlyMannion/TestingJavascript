@@ -9,7 +9,7 @@ $(document).ready(function() {
     $("#triggerCels").click(function() {
       var fahrToConvert = $("#inputFahr").val();
       var calculatedCels = convertFahrenheitToCelsius(fahrToConvert)
-      $("#fahrToCels").html(calculatedCels);
+      $("#fahrToCels").html("Celsius: " + calculatedCels);
       $('#inputFahr').val('');
       $('#inputFahr').focus();
     })
