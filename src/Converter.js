@@ -7,7 +7,8 @@ $(document).ready(function() {
   $(document).ready(function() {
 
     $("#triggerCels").click(function() {
-      $("#fahrToCels").html($("#inputFahr").val());
+      var fahrToConvert = $("#inputFahr").val();
+      $("#fahrToCels").html(fahrToConvert);
     })
 
     // $("#trigger").click(function() {
