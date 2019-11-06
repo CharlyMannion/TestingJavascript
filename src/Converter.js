@@ -1,11 +1,17 @@
 /** Unit Converter **/
 
+
 $(document).ready(function() {
   // all custom jQuery will go here
 
-  $("#demo").html("Hello, World!");
+  $(document).ready(function() {
+    $("#trigger").click(function() {
+      $("#demo").html("Hello, World!");
+    });
+  });
 
 });
+
 
 function convertFahrenheitToCelsius(fahrenheit) {
   var calcCelsius = (fahrenheit - 32)/1.8
