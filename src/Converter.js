@@ -8,7 +8,8 @@ $(document).ready(function() {
 
     $("#triggerCels").click(function() {
       var fahrToConvert = $("#inputFahr").val();
-      $("#fahrToCels").html(fahrToConvert);
+      var calculatedCels = convertFahrenheitToCelsius(fahrToConvert)
+      $("#fahrToCels").html(calculatedCels);
     })
 
     // $("#trigger").click(function() {
