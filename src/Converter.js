@@ -5,9 +5,9 @@ $(document).ready(function() {
   // all custom jQuery will go here
 
   $(document).ready(function() {
-    $("#trigger").click(function() {
-      $("#demo").html("Hello, World!");
-    });
+    // $("#trigger").click(function() {
+    //   $("#demo").html("Hello, World!");
+    // });
   });
 
 });
