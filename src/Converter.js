@@ -7,7 +7,7 @@ $(document).ready(function() {
   $(document).ready(function() {
 
     $("#triggerCels").click(function() {
-      $("#fahrToCels").html("test");
+      $("#fahrToCels").html($("#inputFahr").val());
     })
 
     // $("#trigger").click(function() {
