@@ -5,6 +5,11 @@ $(document).ready(function() {
   // all custom jQuery will go here
 
   $(document).ready(function() {
+
+    $("#triggerCels").click(function() {
+      $("#fahrToCels").html("test");
+    })
+
     // $("#trigger").click(function() {
     //   $("#demo").html("Hello, World!");
     // });
